@@ -11,6 +11,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestController {
     @RequestMapping(value = "/test")
     public String test() {
-        return "Successfully build our first version! Let's try make our second version!";
+        return "2021年04月23日17:02:13 成功部署，尝试webHook";
     }
 }
