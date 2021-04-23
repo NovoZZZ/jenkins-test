@@ -11,6 +11,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestController {
     @RequestMapping(value = "/test")
     public String test() {
-        return "We have configured Jenkins! Let's do our first test!";
+        return "Successfully build our first version! Let's try make our second version!";
     }
 }
